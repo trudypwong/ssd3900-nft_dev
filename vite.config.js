@@ -1,5 +1,5 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -9,9 +9,9 @@ export default defineConfig({
   },
   // Base path for GitHub Pages deployment
   // Change 'nft_dev' to your actual repository name when deploying
-  base: "/nft_dev/",
+  base: '/ssd3900-nft_dev/',
   server: {
-    host: "0.0.0.0",
+    host: '0.0.0.0',
     port: 5173,
   },
 });
